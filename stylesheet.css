@@ -12,13 +12,16 @@
     padding-top: 20px;
 }
 #searchbar {
-    z-index: 3;
-    margin: 0 auto;
+    
+    margin: 0 -50px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     box-shadow: none;
-    width: 450px;
-    height: 44px;
+    width: 550px;
+    height: 40px;
+    cursor: text;
+    
+
     
 }
 #buttonscontainer{
@@ -39,4 +42,21 @@ button {
     text-align: center;
     cursor: pointer;   
     font-family: Arial, sans-serif;
+    opacity: 0.75;
+}
+
+#navbar{
+    width: 100%;
+    top: 0;
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+    
+a {
+    font-family: arial,sans-serif;
+    color: #000000;
+    opacity: 0.75; 
+    
 }
