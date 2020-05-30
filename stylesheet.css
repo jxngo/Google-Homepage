@@ -20,9 +20,6 @@
     width: 550px;
     height: 40px;
     cursor: text;
-    
-
-    
 }
 #buttonscontainer{
     display:flex;
@@ -52,11 +49,19 @@ button {
     padding-top: 25px;
     justify-content: space-between;
 }
+.navright, .navleft {
+    display: flex;
+}
 
+input {
+    text-indent: 40px;
+    font-family: Segoe UI, Roboto, Arial, sans-serif;
+    font-size: 15px;
+}
     
 a {
     font-family: arial,sans-serif;
     color: #000000;
     opacity: 0.75; 
-    
+    margin-left: 10px;
 }
