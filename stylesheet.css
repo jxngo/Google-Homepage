@@ -65,3 +65,12 @@ a {
     opacity: 0.75; 
     margin-left: 10px;
 }
+#footer{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    line-height: 40px;
+    min-width: 980px;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+}
